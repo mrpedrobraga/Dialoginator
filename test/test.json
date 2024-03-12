@@ -1,0 +1,19 @@
+{
+    "Group 1": {
+        "PRNT": {
+            "name": "Print",
+            "description": "Prints freeform text for debugging.",
+            "params": {
+                "content": { "type": "string" },
+                "color": { "type": "color" }
+            }
+        },
+        "PRLN": {
+            "name": "Print Line",
+            "description": "Prints a line of text for debugging.",
+            "params": {
+                "content": { "type": "string" }
+            }
+        }
+    }
+}

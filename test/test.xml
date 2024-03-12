@@ -1,0 +1,11 @@
+<actions>
+    <group name="Group 1">
+        <action code="PRLN" name="Print Line" description="Prints a line of text for debugging.">
+            <param name="content" type="string"></param>
+        </action>
+        <action code="PRNT" name="Print" description="Prints freeform text for debugging.">
+            <param name="content" type="string"></param>
+            <param name="color" type="color"></param>
+        </action>
+    </group>
+</actions>
